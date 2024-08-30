@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Visores OAP-ANSV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="icon" href="https://www.supersociedades.gov.co/documents/20124/595285/favicon.png/b087982f-ba65-ad1d-86dd-c032517ef604?version=2.0&t=1720105216670&imagePreview=1" type="image/png"> <!-- Favicon -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+
+    <script>
+      // Verificar si el usuario está autenticado
+      if (!localStorage.getItem('authenticated')) {
+        // Si no está autenticado, redirigir a la página de inicio de sesión
+        window.location.href = 'index.html';
+      }
+    </script>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="p-4 pt-5">
+		  		<a href="dashboard.html" class="img logo rounded-circle mb-5" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2lvoVCT57sGgBwGdkXnC1oS_8jN4whmreg&s)"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <!--<li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="1.html">Home 1</a>
+                </li>
+                <li>
+                    <a href="#">Home 2</a>
+                </li>
+                <li>
+                    <a href="#">Home 3</a>
+                </li>
+	            </ul>
+	          </li>-->
+            <!--<li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">Page 1</a>
+                </li>
+                <li>
+                  <a href="#">Page 2</a>
+                </li>
+                <li>
+                    <a href="#">Page 3</a>
+                </li>
+              </ul>
+	          </li>-->
+	          <li>
+              <a href="PAA.html">1. Plan Anual de Adquisiciones - PAA</a>
+            </li>
+            <li>
+              <a href="CVI.html">2. Certificados de Validación de la Inversión - CVI</a>
+            </li>
+            <li>
+              <a href="PI.html">3. Proyectos de Inversión - PI</a>
+            </li>
+            <li>
+              <a href="PAI.html">4. Plan de Acción Institucional - PAI</a>
+            </li>
+            <li>
+              <a href="CONTRATOS.html">5. Contratación</a>
+            </li>
+            <li>
+              <a href="CONSOLIDADO.html">Consolidado</a>
+            </li>
+            <li>
+              <a href="index.html">Cerrar Sesión</a>
+            </li>
+	        </ul>
+          <!--
+	        <div class="footer">
+	        	<p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  <!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>-->
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p>
+	        </div>
+          -->
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="dashboard.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PAA.html">PAA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CVI.html">CVI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PI.html">PI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="PAI.html">PAI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CONTRATOS.html">Contratación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CONSOLIDADO.html">Consolidado</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html" class="logout"><i class="fas fa-sign-out-alt"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+       
+        
+        <h2 class="mb-4">Consolidado</h2>
+          <p>Consolidado de información de bases de datos de 1. Certificados de Validación de la Inversión (CVIs), 2. Plan Anual de Adquisiciones (PAA), Proyectos de inversión (PI), Plan de Acción Institucional (PAI) y Ejecución Contractual a la fecha. Se puede visualizar la información relacionada con Números consecutivos de CVI, saldos a favor y saldo negativos.</p>
+            
+            <iframe width="100%" height="700" src="https://lookerstudio.google.com/embed/reporting/12d8beb8-1e0e-4185-b150-57b3cd59d972/page/5wY9D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+          
+            <div class="row justify-content-between text-center">
+            <div class="col-4">
+              <b>Periodo actualización:</b> Mensual
+            </div>
+            <div class="col-4">
+              <script>
+                const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+                const d = new Date();
+                document.write("<strong>Mes actualización: </strong>" + monthNames[d.getMonth()]);
+              </script>
+              
+            </div>
+          </div>
+  
+          <div class="footer d-flex justify-content-center">
+            <nav class="footer navbar-expand-lg text-center">
+              <a>Todos los derechos reservados | <b>Oficina Asesora de Planeación</b> - <a href="https://ansv.gov.co" target="_blank">Agencia Nacional de Seguridad Vial</a>
+              <div><a>Copyright &copy;<script>document.write(new Date().getFullYear());</script></a></div>
+            </nav>
+          </div>
+
+        
+      </div>
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
