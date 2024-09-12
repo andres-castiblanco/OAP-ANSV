@@ -28,6 +28,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         localStorage.setItem('authenticated', true);
         window.location.href = 'dashboard.html';
     } else {
-        alert('Usuario/Contraseña inválido');
+        alert('Usuario/Contraseña inválido. Contacte al Administrador');
     }
 });
